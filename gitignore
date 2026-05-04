@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Node (por si en el futuro añades build step)
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+.cache/
+.next/
+.parcel-cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Env
+.env
+.env.local
+.env.production
+.env.development
+
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Test/preview files
+preview-*.png
+test.html
+*.bak
